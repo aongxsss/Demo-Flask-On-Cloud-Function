@@ -8,7 +8,13 @@
 
 - pipenv shell
 
-- pip install pandas numpy scikit-learn flask
+- pip install pandas
+
+- pip install numpy 
+
+- pip install scikit-learn 
+ 
+- pip install flask
 
 - python server.py
 
