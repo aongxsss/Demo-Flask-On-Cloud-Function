@@ -1,4 +1,4 @@
-- clone this repository (iris_web) to you computer
+Clone this repository (iris_web) to you computer
 
 - open a terminal (i.e. cmd)
 
@@ -8,13 +8,7 @@
 
 - pipenv shell
 
-- pip install pandas
-
-- pip install numpy 
-
-- pip install scikit-learn 
- 
-- pip install flask
+- pipenv install pandas numpy scikit-learn flask
 
 - python server.py
 
