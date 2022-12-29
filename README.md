@@ -2,7 +2,7 @@
 
 - open a terminal (i.e. cmd)
 
-- pip install pipenv (you can skip this step if 'pipenv' has been installed in you computer already)
+- pip install pipenv (skip this step if 'pipenv' has been installed on your computer already)
 
 - cd iris_web && pipenv install --three 
 
@@ -12,7 +12,7 @@
 
 - python server.py
 
-- python model.py (you may skip this step as the repo contains model.pkl already)
+- python model.py (skip this step to use the existing model.pkl)
 
 - open a web browser and type 'http://127.0.0.1:5000/home' in the address bar
 
