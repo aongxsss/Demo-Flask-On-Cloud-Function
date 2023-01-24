@@ -2,7 +2,7 @@
 from flask import Flask, request, render_template,jsonify # Import flask libraries
 import pickle as pk
 import numpy as np
-
+import os
 # Initialize the flask class and specify the templates directory
 app = Flask(__name__,template_folder="templates")
 
@@ -46,4 +46,4 @@ def classify_type():
 
 # Run the Flask server
 if(__name__=='__main__'):
-    app.run(debug=True)        
+    app.run(host='0.0.0.0', port=8000, debug=True)

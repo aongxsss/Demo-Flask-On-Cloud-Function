@@ -29,4 +29,4 @@ def classify(a, b, c, d):
     arr = arr.astype(np.float64) # Change the data type to float
     query = arr.reshape(1, -1) # Reshape the array
     prediction = variety_mappings[logreg.predict(query)[0]] # Retrieve from dictionary
-    return prediction # Return the prediction
+#     return prediction # Return the prediction
