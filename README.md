@@ -1,4 +1,4 @@
-Clone this repository (iris_web) to you computer
+# Clone this repository (iris_web) to you computer
 
 - open a terminal (i.e. cmd)
 
@@ -18,3 +18,4 @@ Clone this repository (iris_web) to you computer
 
 - a window will apprear for entering iris data to be predicted 
 # Demo-Flask-On-Cloud-Function
+  - use dockerfile to deployed on Cloud Function (GCP)
